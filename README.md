@@ -4,7 +4,7 @@ Intro to Computer Systems assignment :
 
 
 
-### [proxy.c](proxy.c) is an implementaion of proxy server that acts as an intermediary between clients making requests to access resources and the servers that satisfy those requests by serving content
+### [proxy.c](proxy.c) contains my implementaion of proxy server that acts as an intermediary between clients making requests to access resources and the servers that satisfy those requests by serving content
 
 There are three features in [proxy.c](proxy.c):
 

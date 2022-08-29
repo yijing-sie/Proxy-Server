@@ -43,7 +43,7 @@ files `csapp.c` and `csapp.h`, which comprise the CS:APP package discussed in th
 
 
 ### Evaluation
-There are a total of 51 test files, divided into four series, labeled A–D, for testing the implemented proxy server
+The professor provided a driver program to test the implemented proxy server on 51 test files, which are divided into four series, labeled A–D.
 
 ![image](https://user-images.githubusercontent.com/84282744/187306967-f7a4f97e-8a30-426e-bfa6-b8a3d89a9034.png)
 

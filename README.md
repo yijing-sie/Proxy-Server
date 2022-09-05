@@ -1,16 +1,16 @@
-# Proxy-Server
+# Web-Proxy-Server
 
 Intro to Computer Systems assignment :
 
 
 
-### [proxy.c](proxy.c) contains my implementaion of proxy server that acts as an intermediary between clients making requests to access resources and the servers that satisfy those requests by serving content
+### [proxy.c](proxy.c) contains my implementaion of web proxy server that acts as an intermediary between multiple clients making requests to access web resources and the Internet server that satisfy those requests by serving requested content; Additionally, [proxy.c](proxy.c) caches recently used Web resources into the memory for users.
 
 There are three features in [proxy.c](proxy.c):
 
 
 1. It accepts incoming connections, reads and parses requests, forwards requests to web servers, reads the servers’ responses, and forwards the responses to the corresponding clients
-2. It deals with multiple concurrent connections in parallel
+2. It deals with multiple concurrent connections for multiple users in parallel
 3. It uses a cache to keep recently used Web objects in memory dynamically to boost the performance of the proxy server
 
 There are two significant classes of port numbers: HTTP request ports and the listening port specified by the command line argument 

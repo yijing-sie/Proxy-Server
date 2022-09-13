@@ -4,7 +4,8 @@ Intro to Computer Systems assignment :
 
 
 
-### [proxy.c](proxy.c) contains my implementaion of web proxy server that acts as an intermediary between multiple clients making requests to access web resources and the Internet server that satisfy those requests by serving requested content; Additionally, [proxy.c](proxy.c) caches recently used Web resources into the memory for users.
+[proxy.c](proxy.c) contains my implementation of a **web proxy server** that acts as an intermediary between multiple clients making requests to access web resources and the Internet server that satisfy those requests by serving requested content; Additionally, [proxy.c](proxy.c) **caches** recently used Web resources into the memory for users.
+
 
 There are three features in [proxy.c](proxy.c):
 
@@ -20,7 +21,7 @@ There are two significant classes of port numbers: HTTP request ports and the li
 
 > If no port is specified, the default HTTP port of 80 is used
 
-> [proxy.c](proxy.c) handles and forward HTTP requests as HTTP/1.0 requests.
+> [proxy.c](proxy.c) handles and forwards HTTP requests as HTTP/1.0 requests.
 
 2.   Listening port: the port on which [proxy.c](proxy.c) listens for incoming connections. 
 
@@ -37,9 +38,9 @@ Usage:
 * In the case of invalid requests, or valid requests that [proxy.c](proxy.c) is unable to handle, it sends the appropriate HTTP status code back to the client.
 
 * When reading and writing socket data, [proxy.c](proxy.c) uses the RIO package from the 
-files `csapp.c` and `csapp.h`, which comprise the CS:APP package discussed in the CS:APP3e textbook
+files `csapp.c` and `csapp.h`, which comprise the CS:APP package discussed in the **CS:APP3e** textbook
 
-* When handling HTTP request from clients, [proxy.c](proxy.c) uses the functions in `http parser.h`, which defines the API for a small HTTP string parsing library. This library includes functions for extracting important data fields from HTTP response headers and storing them in a parser t struct.
+* When handling **HTTP** request from clients, [proxy.c](proxy.c) uses the functions in `http parser.h`, which defines the API for a small HTTP string parsing library. 
 
 
 ### Evaluation
